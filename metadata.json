@@ -1,0 +1,6 @@
+{
+  "name": "Iris Classifier: ML Workflow Explorer",
+  "description": "An interactive beginner-friendly machine learning classification app using the Iris dataset to demonstrate the core ML lifecycle: data, preprocessing, training, and prediction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
