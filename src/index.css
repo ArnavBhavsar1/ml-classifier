@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700&family=Cormorant+Garamond:ital,wght@1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Cormorant Garamond", serif;
+}
+
+body {
+  background-color: #f0f1f3;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Custom rail scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f1f3;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+}
